@@ -12,7 +12,7 @@ pub mod boxed;
 #[cfg(feature = "collections")]
 pub mod collections;
 
-mod alloc;
+pub mod alloc;
 
 use core::cell::Cell;
 use core::fmt::Display;
